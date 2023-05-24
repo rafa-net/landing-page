@@ -41,7 +41,6 @@ html {
 #links {
   display: flex;
   justify-content: space-between;
-  flex-grow: 1;
 }
 
 #links a {
@@ -65,10 +64,14 @@ html {
   font-weight: 900;
   margin-top: 100px;
   margin-bottom: 0;
-  color: var(--hero-text);
+  padding-bottom: 0;
+  color: var(--hero-main-text);
 }
 
 #hero-text p {
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 10px;
   font-size: 24px;
   color: var(--header-link);
 }
@@ -76,8 +79,9 @@ html {
 button {
   all: unset;
   width: 100px;
-  padding: 10px 20px;
-  background-color: var(--btn-cta);
+  padding: 8px 20px;
+  margin-top: 0;
+  background-color: var(--cta-bg);
   border: none;
   color: white;
   border-radius: 8px;
@@ -98,20 +102,23 @@ button {
   margin: 20px;
 }
 
+
 #random-info {
+  margin-top: 40px;
+  padding-top: 10px;
   background-color: white;
 }
 
 #random-info h1 {
   font-size: 36px;
   font-weight: 900;
-  color: var(--info-header);
+  color: var(--header-info);
   text-align: center;
   padding: 20px;
 }
 
 #prod-showcase {
-  margin: 20px 60px;
+  margin-bottom: 0;
   padding: 20px;
   display: flex;
   justify-content: space-evenly;
@@ -126,11 +133,12 @@ button {
   justify-content: center;
 }
 
+/* small blue outlined squares */
 .small-img {
-  border: 5px solid var(--btn-cta);
-  border-radius: 10px;
-  width: 100px;
-  height: 100px;
+  border: 5px solid var(--cta-bg);
+  border-radius: 12px;
+  width: 150px;
+  height: 150px;
 }
 
 #quote {
@@ -158,7 +166,7 @@ button {
   border-radius: 10px;
   padding: 20px 40px;
   margin: 10px 10px;
-  background-color: var(--btn-cta);
+  background-color: var(--cta-bg);
 }
 
 #call-to-action button {
