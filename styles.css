@@ -2,11 +2,11 @@
 
 :root {
   --dark-bg: #1F2937;
-  --hero-text: #F9FAF8;
+  --hero-main-text: #F9FAF8;
   --header-link: #E5E7EB;
   --header-logo: #F9FAF8;
-  --btn-cta: #3882F6;
-  --info-header: #1F2937;
+  --cta-bg: #3882F6;
+  --header-info: #1F2937;
   --quote-bg: #E5E7EB;
   --quote-text: #1F2937;
 }
