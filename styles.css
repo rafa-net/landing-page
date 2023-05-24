@@ -19,6 +19,10 @@ html {
   background-color: var(--dark-bg);
 }
 
+#hero-container {
+  padding: 10px;
+}
+
 #navbar {
   display: flex;
   justify-content: space-between;
@@ -119,7 +123,7 @@ button {
 
 #prod-showcase {
   margin-bottom: 0;
-  padding: 20px;
+  padding-bottom: 90px;
   display: flex;
   justify-content: space-evenly;
 }
@@ -129,8 +133,8 @@ button {
   padding: 10px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: space-around;
+  justify-content: space-around;
 }
 
 /* small blue outlined squares */
@@ -173,4 +177,14 @@ button {
   margin-left: auto;
   border: 2px solid white;
   padding: 0;
+}
+
+footer {
+  background-color: var(--dark-bg);
+}
+
+footer p {
+  padding: 20px;
+  color: whitesmoke;
+  text-align: center;
 }
