@@ -125,6 +125,7 @@ button {
   margin: 20px;
 }
 
+/* Second section */
 #prod-showcase {
   margin-bottom: 0;
   padding-bottom: 90px;
@@ -140,8 +141,12 @@ button {
   padding: 10px;
   display: flex;
   flex-direction: column;
-  align-items: space-around;
+  align-items: center;
   justify-content: space-around;
+}
+
+.product p {
+  text-align: center;
 }
 
 .small-img {
@@ -150,8 +155,6 @@ button {
   width: 150px;
   height: 150px;
 }
-
-/* Second section: testimonials */
 
 #random-info {
   margin-top: 40px;
@@ -165,6 +168,13 @@ button {
   color: var(--header-info);
   text-align: center;
   padding: 20px;
+}
+
+#prod-showcase p {
+  color: rgb(87, 87, 87);
+  font-size: 1.2rem;
+  padding: 0;
+ 
 }
 
 
