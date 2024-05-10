@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-/* Color variables, initial global declarations and text formatting classes */
 :root {
   --dark-bg: #1F2937;
   --hero-main-text: #F9FAF8;
@@ -29,8 +28,6 @@ html {
   font-style: italic;
 }
 
-
-/* First section: hero, header, navbar */
 #hero-container {
   padding-left: 10em;
   padding-right: 8em;
@@ -128,7 +125,6 @@ button {
   margin: 20px;
 }
 
-/* Second section: product showcase*/
 #random-info-title {
   margin-top: 40px;
   padding-top: 10px;
@@ -173,15 +169,13 @@ button {
   text-align: center;
 }
 
-.small-img {
+.small-prod-img {
   border: 5px solid var(--cta-bg);
   border-radius: 12px;
   width: 150px;
   height: 150px;
 }
 
-
-/* Third section: quote and call to action */
 #quote {
   font-size: 36px;
   font-weight: 300;
