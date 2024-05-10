@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+/* Color variables, initial global declarations and text formatting classes */
 :root {
   --dark-bg: #1F2937;
   --hero-main-text: #F9FAF8;
@@ -11,7 +12,14 @@
   --quote-text: #1F2937;
 }
 
-/* First section: hero, header, navbar */
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  background-color: var(--dark-bg);
+}
+
 .extra-bold {
   font-weight: 900;
 }
@@ -21,14 +29,8 @@
   font-style: italic;
 }
 
-* {
-  font-family: 'Roboto', sans-serif;
-}
 
-html {
-  background-color: var(--dark-bg);
-}
-
+/* First section: hero, header, navbar */
 #hero-container {
   padding-left: 10em;
   padding-right: 8em;
@@ -90,6 +92,7 @@ html {
   font-size: 24px;
   color: var(--header-link);
 }
+
 figcaption {
   text-align: center;
   padding-top: 0;
@@ -125,7 +128,21 @@ button {
   margin: 20px;
 }
 
-/* Second section */
+/* Second section: product showcase*/
+#random-info-title {
+  margin-top: 40px;
+  padding-top: 10px;
+  background-color: white;
+}
+
+#random-info-title h1 {
+  font-size: 36px;
+  font-weight: 900;
+  color: var(--header-info);
+  text-align: center;
+  padding: 20px;
+}
+
 #prod-showcase {
   margin-bottom: 0;
   padding-bottom: 90px;
@@ -134,6 +151,13 @@ button {
   align-items: center;
   padding-left: 20em;
   padding-right: 20em;
+}
+
+#prod-showcase p {
+  color: rgb(87, 87, 87);
+  font-size: 1.2rem;
+  padding: 0;
+ 
 }
 
 .product {
@@ -156,28 +180,8 @@ button {
   height: 150px;
 }
 
-#random-info {
-  margin-top: 40px;
-  padding-top: 10px;
-  background-color: white;
-}
 
-#random-info h1 {
-  font-size: 36px;
-  font-weight: 900;
-  color: var(--header-info);
-  text-align: center;
-  padding: 20px;
-}
-
-#prod-showcase p {
-  color: rgb(87, 87, 87);
-  font-size: 1.2rem;
-  padding: 0;
- 
-}
-
-
+/* Third section: quote and call to action */
 #quote {
   font-size: 36px;
   font-weight: 300;
