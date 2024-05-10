@@ -125,22 +125,6 @@ button {
   margin: 20px;
 }
 
-/* Second section: testimonials */
-
-#random-info {
-  margin-top: 40px;
-  padding-top: 10px;
-  background-color: white;
-}
-
-#random-info h1 {
-  font-size: 36px;
-  font-weight: 900;
-  color: var(--header-info);
-  text-align: center;
-  padding: 20px;
-}
-
 #prod-showcase {
   margin-bottom: 0;
   padding-bottom: 90px;
@@ -160,13 +144,29 @@ button {
   justify-content: space-around;
 }
 
-/* small blue outlined squares */
 .small-img {
   border: 5px solid var(--cta-bg);
   border-radius: 12px;
   width: 150px;
   height: 150px;
 }
+
+/* Second section: testimonials */
+
+#random-info {
+  margin-top: 40px;
+  padding-top: 10px;
+  background-color: white;
+}
+
+#random-info h1 {
+  font-size: 36px;
+  font-weight: 900;
+  color: var(--header-info);
+  text-align: center;
+  padding: 20px;
+}
+
 
 #quote {
   font-size: 36px;
