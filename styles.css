@@ -31,34 +31,34 @@ html {
 #hero-container {
   padding-left: 10em;
   padding-right: 8em;
+  padding-bottom: 2em;
 }
 
 #navbar {
   display: flex;
-  justify-content: space-between;
-  padding: 2px 20px;
 }
 
 #navbar a,
 #links a {
-  padding: 6px 20px;
+  padding: 10px;
   text-decoration: none;
 }
 
 #header-logo {
-  font-size: 24px;
-  flex-grow: 1;
+  font-size: 1.6rem;
+  font-weight: 900;
   color: var(--header-logo);
   margin-right: auto;
 }
 
 #links {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
 }
 
 #links a {
   color: var(--header-link);
+  font-size: 1.3rem;
 }
 
 #hero {
@@ -84,7 +84,15 @@ html {
 
 #hero-text p {
   padding-top: 0;
-  margin-top: 0;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: var(--header-link);
+}
+figcaption {
+  text-align: center;
+  padding-top: 0;
+  margin-top: 5px;
   margin-bottom: 10px;
   font-size: 24px;
   color: var(--header-link);
@@ -93,7 +101,7 @@ html {
 button {
   all: unset;
   width: 100px;
-  padding: 14px 8px;
+  padding: 9px 9px;
   margin-top: 10px;
   background-color: var(--cta-bg);
   border: none;
@@ -116,7 +124,6 @@ button {
   padding: 20px;
   margin: 20px;
 }
-
 
 #random-info {
   margin-top: 40px;
