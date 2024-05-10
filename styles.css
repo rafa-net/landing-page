@@ -29,7 +29,8 @@ html {
 }
 
 #hero-container {
-  padding: 10px;
+  padding-left: 10em;
+  padding-right: 8em;
 }
 
 #navbar {
@@ -92,8 +93,8 @@ html {
 button {
   all: unset;
   width: 100px;
-  padding: 8px 20px;
-  margin-top: 0;
+  padding: 14px 8px;
+  margin-top: 10px;
   background-color: var(--cta-bg);
   border: none;
   color: white;
@@ -101,6 +102,7 @@ button {
   font-size: 16px;
   text-align: center;
   cursor: pointer;
+  font-weight: 900;
 }
 
 #hero-img {
@@ -134,7 +136,10 @@ button {
   margin-bottom: 0;
   padding-bottom: 90px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20em;
+  padding-right: 20em;
 }
 
 .product {
