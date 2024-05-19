@@ -25,7 +25,7 @@ Navigate to the project directory and open the `index.html` file in your web bro
 Contributions to this project are welcome! Please feel free to fork this repository, make changes, and submit a pull request.
 
 ## License
-This project is open source and available under the MIT License.
+This project is open source and available under the GPL-3.0 License.
 
 ## Acknowledgments
 - The Odin Project for providing the design and guidelines for this exercise.
