@@ -1,7 +1,7 @@
 # Landing Page Project
 
 ## Overview
-Welcome to the Landing Page project! This repository contains the code for a basic landing page designed as part of The Odin Project's foundations exercises. The goal of this project is to help learners implement a webpage from a given design, focusing on applying HTML and CSS skills.
+Welcome to the Landing Page project! This repository contains the code for a basic landing page designed as part of The Odin Project's foundations exercises. The goal of this project is to help learners implement a webpage from a given design, focusing on applying HTML and CSS skills. As I was given the liberty to style it according to my preferences, I made it a 'Portal 2' tribute page...
 
 ## Features
 - **CSS Flexbox:** Utilizes CSS Flexbox for efficient layout management.
