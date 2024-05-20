@@ -28,11 +28,11 @@ html {
   font-style: italic;
 }
 
-#hero-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 #navbar {
@@ -42,7 +42,6 @@ html {
   padding: 20px 60px;
   background-color: var(--dark-bg);
   color: var(--header-link);
-  border-bottom: 2px dotted var(--header-link);
 }
 
 #navbar a,
@@ -57,13 +56,8 @@ html {
   color: green;
 }
 
-
-
-#header-logo {
-  font-size: 1.6rem;
-  font-weight: 900;
-  color: var(--header-logo);
-  float: left;
+#header-logo img {
+  width: 256px;
 }
 
 #links {
@@ -76,10 +70,20 @@ html {
   font-size: 1.3rem;
 }
 
-#hero {
-  display: flex;
-  justify-content: ;
-  background-color: var(--dark-bg);
+
+svg {
+  width: 100%;
+  transition: fill 0.3s;
+  transition: scale 0.3s;
+}
+
+svg:hover {
+  fill: lightgreen;
+  scale: 1.1;
+
+}
+#hero-container {
+
 }
 
 #hero-text {
@@ -88,6 +92,10 @@ html {
   justify-content: center;
   align-items: flex-start;
   padding: 40px;
+}
+#hero {
+  display: flex;
+  background-color: var(--dark-bg);
 }
 
 #hero-text h1 {
@@ -103,8 +111,8 @@ html {
   padding-top: 0;
   margin-top: 5px;
   margin-bottom: 10px;
-  font-size: 24px;
-  color: var(--header-link);
+  font-size: 26px;
+  color: #aeafb2
 }
 
 figcaption {
@@ -139,15 +147,24 @@ button:hover {
 }
 
 #hero-img {
-  padding: 40px;
+  padding-top: 10px;
+  padding-left: 60px;
+  padding-bottom: 20px;
 }
 
 #hero-img img {
   width: 100%;
   height: auto;
-  padding: 20px;
-  margin: 20px;
 }
+
+#ASHPD {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 300px;
+  background-color: #81C3D7;
+}
+
 
 #random-info-title {
   margin-top: 40px;
