@@ -37,7 +37,6 @@ html {
   font-style: italic;
 }
 
-
 nav {
   position: sticky;
   top: 0;
@@ -79,7 +78,6 @@ nav {
   font-size: 1.3rem;
 }
 
-
 svg {
   width: 100%;
   transition: fill 0.3s;
@@ -90,7 +88,6 @@ svg:hover {
   fill: lightgreen;
   scale: 1.1;
 }
-
 
 #hero {
   display: flex;
@@ -104,11 +101,10 @@ svg:hover {
   flex-direction: column;
   justify-content: center;
   padding-right: 6em;
-  margin-right: 6em; 
+  margin-right: 6em;
 }
 
 #hero-text h1 {
-
   font-size: 48px;
   font-weight: 900;
   margin-bottom: 0;
@@ -116,7 +112,7 @@ svg:hover {
 }
 
 #hero-text p {
-text-align: justify;
+  text-align: justify;
   padding-top: 0;
   margin-top: 5px;
   margin-bottom: 10px;
@@ -125,7 +121,6 @@ text-align: justify;
 }
 
 button {
-
   all: unset;
   width: 100px;
   padding: 10px;
@@ -168,10 +163,6 @@ button:hover {
   filter: drop-shadow(0 0 20px rgb(0, 208, 255));
 }
 
-
-
-
-
 figcaption {
   text-align: center;
   padding-top: 0;
@@ -180,7 +171,6 @@ figcaption {
   font-size: 24px;
   color: var(--header-link);
 }
-
 
 #cave-container {
   display: flex;
@@ -201,7 +191,6 @@ figcaption {
   justify-content: center;
   padding: 60px;
 }
-
 
 #cave-text h2,
 #cave-text p {
@@ -245,7 +234,6 @@ figcaption {
   color: rgb(87, 87, 87);
   font-size: 1.2rem;
   padding: 0;
-
 }
 
 .product {
